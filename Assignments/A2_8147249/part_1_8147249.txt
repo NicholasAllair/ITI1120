@@ -1,0 +1,91 @@
+*************************************************************
+*                                                           *
+*  __Welcome to my math quiz-generator / equation-solver__  *
+*                                                           *
+*************************************************************
+
+What is your name? nick
+Hi nick. Are you in? Enter 
+1 for primary school
+2 for high school or
+3 for none of the above?
+1
+*************************************************************************
+*                                                                       *
+*  __nick, welcome to my quiz-generator for primary school students.__  *
+*                                                                       *
+*************************************************************************
+
+nick what would you like to practice? Enter
+0 for subtraction
+1 for exponentiation
+0
+How many questions would you like to do?4
+Question  1 :
+What is the result of 4 - 8 ?  
+-4
+Question  2 :
+What is the result of 5 - 3 ?  
+2
+Question  3 :
+What is the result of 2 - 2 ?  
+0
+Question  4 :
+What is the result of 5 - 9 ?  
+-4
+Congradualtionsnick!  You'll probably get an A tomorrow.  Now go eat you dinner and go to sleep.
+Good bye nick!
+
+    Another Example Run
+
+*************************************************************
+*                                                           *
+*  __Welcome to my math quiz-generator / equation-solver__  *
+*                                                           *
+*************************************************************
+
+What is your name? nick
+Hi nick. Are you in? Enter 
+1 for primary school
+2 for high school or
+3 for none of the above?
+2
+*****************************************************************
+*                                                               *
+*  __quadratic equation, a·x^2 + b·x + c= 0, solver for nick__  *
+*                                                               *
+*****************************************************************
+nick, would you like a quadratic equation solved?Yes
+Good choice!
+Enter a number for the coefficient a:1
+Enter a number for the coefficient b:2
+Enter a number for the coefficient c:3
+The quadratic equation  1 *x^2 +  2 x +  3  = 0
+has the following complex roots:
+-1.0  +  1.4142135623730951 i
+and
+-1.0  -  1.4142135623730951 i
+nick, would you like a quadratic equation solved?yeS
+Good choice!
+Enter a number for the coefficient a:-1
+Enter a number for the coefficient b:10
+Enter a number for the coefficient c:36
+The quadratic equation  -1 *x^2 +  10 x +  36  = 0
+has the following real roots
+-2.810249675906654  and  12.810249675906654
+nick, would you like a quadratic equation solved?no
+Good bye nick!
+
+    Another example run
+
+What is your name? nick
+Hi nick. Are you in? Enter 
+1 for primary school
+2 for high school or
+3 for none of the above?
+3
+This Program is not for you
+Good bye nick!
+
+
+
