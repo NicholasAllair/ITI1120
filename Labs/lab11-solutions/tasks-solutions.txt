@@ -1,0 +1,51 @@
+Task 1:
+(a)
+program with orange prints
+10 8 6 4 2
+program with guava prints
+2 4 6 8 10
+(b)
+given an even positive integer n, organe prints all even positive integers between  0 and n (inclusively) from biggest to smallest
+given an odd positive integer n, orange prints all odd positive integers between 0 and n (inclusively) from biggest to smallest
+
+given an even positive integer n, guava  prints all even positive integers between  0 and n (inclusively) from smallest to biggest
+given an odd positive integer n, guava prints all odd positive integers between 0 and n (inclusively) from  smallest to biggest
+
+Task 2:
+(a) 10
+(b) mulberry  adds all the positive integers from 1 to in (inclusively)  and returns that sum
+(c) theorethically, the program would run forever as we effectively entered infinite loop. Practically the program would crash since we will run out of memory (on the stack)
+(e) for mulberry(4)  call there are at most 4 mulberry functions running at any one time.
+for general n, there would be n functions running at one time (i.e. n mulberry  functions on the stack)
+
+for n is a 1000, the call mulberry(1000) since that requires more space on the stack than what python program gets
+
+Task 3:
+(a) It prints:
+4
+5
+2
+7
+(b) Given a positive integer n, the function cantaloupe prints, one by one, the digits of that number starting with the least signfict digit.
+(c) for cantaloupe(7254) call, there are at most 5 cantaloupe functions running at any one time.
+More generally for general n, the number of cantaloupe function running at any one time is the number of digits in n (plus 1)
+
+Task 4:
+(a) It prints 7
+(b) Given a list of numbers the function almond returns the maximum number
+
+Task 5:
+(a) It prints 7
+(b) Given a list of numbers the function fig  returns the maximum number
+
+So function almond and fig do basically the same thing. The difference is in the implementation. Function almond is easier to read and understand but it has a small disadvantage that every recursive call creates a new list.
+Function fig is less readable but it does not create extra lists, insead one keeps track of the current sublist with variable high.
+
+Task 6
+(a) It prints Cai
+(b) Given a string and a character, the function returns a string where all occurrences of the given character are removed from the given string. ( Thus in the above call, all the occurrences of the character ’c’ are removed from the given string ’’Cacic’’ resulting in a string ’’Cai’’.
+
+Bonus question:
+The depth of the recursion of the call gcd(36, 20) of my "gcd" method is 3.
+
+In general, it is, in the worst case, roughly 2 log a, since every two recursive calls a goes down by at least a half.
